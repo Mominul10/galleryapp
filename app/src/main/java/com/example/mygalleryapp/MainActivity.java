@@ -30,10 +30,9 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        // display();  // init the contact list
+        display();  // init the contact list
 
     }
-
 
 
 
@@ -58,7 +57,9 @@ public class MainActivity extends AppCompatActivity {
                 super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         }
     }
+    private void display() {
 
 
+    }
 
 }
